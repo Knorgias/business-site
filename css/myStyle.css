@@ -1,0 +1,164 @@
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+/*Header styling*/
+
+.header {
+	background:#006680 no-repeat center;
+	border-top: 4px solid black;
+	border-bottom: 4px solid black;
+	text-align: center;
+}
+
+.header h1 {
+	color: black;
+}
+
+/*Header styling-END*/
+
+/*Menu bar styling*/
+.menubar {
+	height: 50px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+ul.menubar-list{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #006680;
+  }
+
+  li {
+      float: left;
+  }
+
+  li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+
+  li a:hover {
+      background-color: #111;
+  }
+/*Menu bar styling-END*/
+
+/*Info styling*/
+.info {
+	background-color: #ccc;
+	width:100%;
+	height: 200px;
+	position:relative;
+	padding: 0px 60px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+.info img {
+	float: left;
+	width:60%;
+	border: 2px #000 solid;
+	padding-left: 0px;
+	border-radius:20%;
+}
+
+.profileImage {
+	width: 200px;
+	float:left;
+	margin-bottom:20px;
+	border-radius: 180px;
+}
+
+.profileHeader {
+	margin:auto;
+	text-align:center;
+}
+
+/*Info styling-END*/
+
+
+/*FAQ Styling*/
+
+#firstAnswer {
+	display: none;
+}
+
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+/*FAQ Styling-END*/
+
+/*Footer styling */
+.location-map {
+	text-align: center;
+	height: 100%;
+	width: 500px;
+	float:left;
+}
+
+.footer {
+	vertical-align: center;
+	height: 156px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	background-color: #006680;
+}
+
+.contact-details {
+	float: left;	
+	padding: 30px 0;
+	margin: 20px 0;
+	font-size: 20px;
+}
+
+
+
+/*Footer styling-END */
+
+/*Image gallery styling*/
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.2); }
+
+.thumbnail { 
+	transition: all .3s ease-in-out; 
+	}
+.thumbnail:hover { 
+	transform: scale(1.8);
+}
+
+/*Image gallery styling-END*/
+
+.sticky {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  border-top: 0;
+}
+

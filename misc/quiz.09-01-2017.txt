@@ -1,0 +1,91 @@
+1 What does dpi stand for?
+dots per inch
+
+2 What is scrum?
+
+Scrum is an agile way to manage a project, usually software development. 
+Agile software development with Scrum is often perceived as a methodology; 
+but rather than viewing Scrum as methodology, think of it as a framework for managing a process.
+
+3 What is kanban?
+
+Kanban is a new technique for managing a software development process in a highly efficient way. Kanban underpins Toyota's "just-in-time" (JIT) production system
+
+Kanban is a method for managing the creation of products with an emphasis on continual delivery while not overburdening the development team. Like Scrum, Kanban is a process designed to help teams work together more effectively
+
+4 How do you select a class and an id?
+
+.myClass
+#myId
+
+5 With JQuery, how do you add a class to an element when you click on it?
+
+ $(document).ready(function () {
+
+     //this will attach the class to every target 
+     $(document).on('click', function (event) {
+         $target = $(event.target);   
+            $target.addClass('myClass');
+        });
+
+    })
+
+6 What does offset(); do?
+
+Returns an object with the x and y distances of an element from the beginning of the document.
+
+7 Can you give some ways to centre an element with CSS?
+
+Specify a width for the DIV block.
+Set both its left and right margins to auto .
+
+If element is of unknown width and height:
+
+/*
+.parent {
+  position: relative;
+}
+.child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+*/
+
+8 What is the correct jQuery code to set the background color of all p elements to red?
+
+ $("p").layout("background-color","red");
+ $("p").style("background-color","red");
+$("p").css("background-color","red"); // This one
+$("p").manipulate("background-color","red");
+
+9 Is jQuery a library for client scripting or server scripting?
+
+Client scripting
+
+10 With jQuery, look at the following selector: $("div.intro"). What does it select?
+
+ The first div element with id="intro"
+ The first div element with class="intro"
+ All div elements with class="intro" //
+ All div elements with id="intro"
+
+11 Which jQuery method is used to hide selected elements?
+
+ display(none) // .hide()
+
+12 Which jQuery function is used to prevent code from running, before the document is finished loading?
+
+ $(document).load() //
+ $(document).ready()
+ $(body).onload()
+ hidden()
+ visible(false)
+ hide()
+
+13 Look at the following selector: $("div p"). What does it select?
+
+ The first p element inside a div element
+ All p elements inside a div element //
+ All div elements with a p element

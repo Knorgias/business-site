@@ -50,6 +50,59 @@ ul.menubar-list{
   }
 /*Menu bar styling-END*/
 
+/*Carousel styling*/
+/* jssor slider bullet navigator skin 05 css */
+/*
+.jssorb05 div           (normal)
+.jssorb05 div:hover     (normal mouseover)
+.jssorb05 .av           (active)
+.jssorb05 .av:hover     (active mouseover)
+.jssorb05 .dn           (mousedown)
+*/
+.jssorb05 {
+		position: absolute;
+}
+.jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+		position: absolute;
+		/* size of bullet elment */
+		width: 16px;
+		height: 16px;
+		background: url('../images/carousel/b05.png') no-repeat;
+		overflow: hidden;
+		cursor: pointer;
+}
+.jssorb05 div { background-position: -7px -7px; }
+.jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+.jssorb05 .av { background-position: -67px -7px; }
+.jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+
+/* jssor slider arrow navigator skin 12 css */
+/*
+.jssora12l                  (normal)
+.jssora12r                  (normal)
+.jssora12l:hover            (normal mouseover)
+.jssora12r:hover            (normal mouseover)
+.jssora12l.jssora12ldn      (mousedown)
+.jssora12r.jssora12rdn      (mousedown)
+*/
+.jssora12l, .jssora12r {
+		display: block;
+		position: absolute;
+		/* size of arrow element */
+		width: 30px;
+		height: 46px;
+		cursor: pointer;
+		background: url('../images/carousel/a12.png') no-repeat;
+		overflow: hidden;
+}
+.jssora12l { background-position: -16px -37px; }
+.jssora12r { background-position: -75px -37px; }
+.jssora12l:hover { background-position: -136px -37px; }
+.jssora12r:hover { background-position: -195px -37px; }
+.jssora12l.jssora12ldn { background-position: -256px -37px; }
+.jssora12r.jssora12rdn { background-position: -315px -37px; }
+/*Carousel styling-END*/
+
 /*Info styling*/
 .info {
 	background-color: #ccc;
@@ -123,14 +176,14 @@ div.desc {
 
 .footer {
 	vertical-align: center;
-	height: 156px;
+	height: 300px;
 	border-top: 2px solid black;
 	border-bottom: 2px solid black;
 	background-color: #006680;
 }
 
 .contact-details {
-	float: left;	
+	float: left;
 	padding: 30px 0;
 	margin: 20px 0;
 	font-size: 20px;
@@ -144,10 +197,10 @@ div.desc {
 .grow { transition: all .2s ease-in-out; }
 .grow:hover { transform: scale(1.2); }
 
-.thumbnail { 
-	transition: all .3s ease-in-out; 
+.thumbnail {
+	transition: all .3s ease-in-out;
 	}
-.thumbnail:hover { 
+.thumbnail:hover {
 	transform: scale(1.8);
 }
 
@@ -161,4 +214,3 @@ div.desc {
   z-index: 100;
   border-top: 0;
 }
-

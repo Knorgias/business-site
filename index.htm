@@ -8,11 +8,12 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
     <meta name="viewport" content="width=device-width" />
     <meta name="description" content="Giulio Grasso personal website" />
-
     <title>Knorgias Website </title>
 
     <!-- include bootstrap 3.3.7 -->
     <link rel="stylesheet" href="css/lib/bootstrap/bootstrap.min.css"></link>
+    <!-- include w3.css -->
+    <link rel="stylesheet" href="css/lib/w3/w3.css">
     <!-- include custom css sheet 3.1.1 -->
     <link rel="stylesheet" href="css/myStyle.css"></link>
     <!-- include font-awesome icons -->
@@ -23,8 +24,7 @@
 <body>
   <!-- My Header -->
   <div class="header">
-    <h1>Welcome to Knorgias' Website!</h1>
-    <p>Profile page for Konstantinos Norgias</p>
+    <h1>Welcome to our Cofee Company!</h1>
   </div>
   <!-- My Header END -->
 
@@ -40,127 +40,48 @@
 
 <!--My Menu Bar END-->
 
-<!-- My info -->
-<div class="container info">
-	<p class="profile-header">
-    <span id="profileName"><b>Konstantinos Norgias -</b> </span>
-    <span id="profileOccupation"><b>Web Development Trainee</b></span>
-  </p>
 
-	<div class="profileImage">
-	 	<img class="grow" alt="Konstantinos Norgias" title="Konstantinos Norgias" src="images/introduction/me.jpg">
-	</div>
 
-	<div class="description">
-	    <p>Gibbet rutters American Main gangway no prey, no pay reef sails yo-ho-ho heave down tackle fore hang the jib avast Sink me nipperkin transom coxswain gaff Cat o'nine tails me mizzen booty fluke brigantine loaded to the gunwalls Letter of Marque pillage lateen sail rope's end flogging marooned. Doubloon to go on account chantey clipper Plate Fleet lass line fluke nipper Shiver me timbers provost draft splice the main brace salmagundi maroon warp coxswain cable avast fathom Corsair boatswain prow crack Jennys tea cup brig deadlights jack lee Jolly Roger hulk. Walk the plank handsomely hogshead no prey, no pay scuppers crimp hardtack come about rigging Sail ho to go on account furl tender American Main lugsail fire ship jury mast landlubber or just lubber nipper execution dock Spanish Main coffer Sink me clipper yardarm Gold Road chase chantey strike colors black jack.</p>
-	</div>
+
+<!--My products carousel -->
+<div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:600px;height:300px;overflow:hidden;visibility:hidden;">
+    <!-- Loading Screen -->
+    <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+        <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+        <div style="position:absolute;display:block;background:url('images/carousel/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+    </div>
+    <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:600px;height:300px;overflow:hidden;">
+        <a data-u="any" href="http://www.jssor.com" style="display:none">Simple Fade Slideshow</a>
+        <div>
+            <img data-u="image" src="images/carousel/02.jpg" />
+        </div>
+        <div>
+            <img data-u="image" src="images/carousel/04.jpg" />
+        </div>
+        <div>
+            <img data-u="image" src="images/carousel/05.jpg" />
+        </div>
+        <div>
+            <img data-u="image" src="images/carousel/09.jpg" />
+        </div>
+    </div>
+    <!-- Bullet Navigator -->
+    <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
+        <!-- bullet navigator item prototype -->
+        <div data-u="prototype" style="width:16px;height:16px;"></div>
+    </div>
+    <!-- Arrow Navigator -->
+    <span data-u="arrowleft" class="jssora12l" style="top:0px;left:0px;width:30px;height:46px;" data-autocenter="2"></span>
+    <span data-u="arrowright" class="jssora12r" style="top:0px;right:0px;width:30px;height:46px;" data-autocenter="2"></span>
 </div>
-<!-- My info END-->
-
-<!-- My FAQ menu -->
-<div class="container">
-  <h2>F.A.Q.</h2>
-  <div class="panel-group" id="accordion">
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h4 class="panel-title">
-          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">What is the meaning of life?</a>
-        </h4>
-      </div>
-      <div id="collapse1" class="panel-collapse collapse in">
-        <div class="panel-body">God, for some, is the answer to the purpose of life question. 
-          For others, the answer is yet to be discovered. For me, there is no purpose. 
-          We are simply consumed by a question that we still don't have a satisfactory answer for and I'm sure, 
-          that even if we do find that conclusive answer, our human nature and psychological attributes (as they are now) 
-          will never allow us to accept it. Our ego, will not allow us to do so.
-          Maybe, just maybe, the next phase of human evolution will allow us to be more objective and eradicate the genes 
-          that drive us to be so inquisitive about purpose and then, just then, we may be able put this question to rest 
-          and be satisfied with 'there is no purpose to life'.</div>
-      </div>
-    </div>
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h4 class="panel-title">
-          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Why are kittens cute?</a>
-        </h4>
-      </div>
-      <div id="collapse2" class="panel-collapse collapse">
-        <div class="panel-body">There is the symbiotic relationship between humans and cats and dogs - dogs assisting humans 
-          to hunt, human employing cats to control pests when growing crops, though I don't think these relationships have 
-          been around long enough to have an evolutionary impact. Then again, if you note the impact of selective breeding, 
-          dogs are very different morpholically to wolves, a change which occurred in a relatively rapid period of time. 
-          So there could potentially be an impact both ways - cats and dogs selectively bred for cuteness, and tribe members 
-          which find cats and dogs cute more likely to be successful as they're better able to hunt or grow crops</div>
-      </div>
-    </div>
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h4 class="panel-title">
-          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">What is the color of a mirror?</a>
-        </h4>
-      </div>
-      <div id="collapse3" class="panel-collapse collapse">
-        <div class="panel-body">A mirror might look silver because it's usually depicted that way in books or movies.  
-          However,  it's actually the color of whatever is reflected onto it. A perfect mirror has specular reflection, 
-          meaning it reflects all light in a single direction equal to what it receives. Specular reflection creates an 
-          image of whatever object is in front of it. But most mirrors we use aren't perfect. In fact, our mirrors reflect 
-          green light, so they often make the objects in them have a greenish tinge.</div>
-      </div>
-    </div>
-  </div> 
-</div>
-<!-- My FAQ menu END-->
-
-<!-- My Image Gallery -->
-<div class="container">
-  <h2>Image Gallery</h2>
-  <div class="row">
-    <div class="col-md-2">
-      <div class="thumbnail">
-          <img src="https://pbs.twimg.com/profile_images/562466745340817408/_nIu8KHX.jpeg" alt="Lights" style="width:100%">
-          <div class="caption">
-            <p>One kitty.</p>
-          </div>
-        </a>
-      </div>
-    </div>
-		<div class="col-md-2">
-      <div class="thumbnail">
-          <img src="http://weknowyourdreams.com/images/kittens/kittens-01.jpg" alt="Lights" style="width:100%">
-          <div class="caption">
-            <p>Two kitties.</p>
-          </div>
-        </a>
-      </div>
-    </div>
-    <div class="col-md-2">
-      <div class="thumbnail">
-          <img src="http://www.warrenphotographic.co.uk/photography/bigs/19634-Ginger-Maine-Coon-kitten-with-sombrero-hat-on-white-background.jpg" alt="Nature" style="width:100%">
-          <div class="caption">
-            <p>Three kitties.</p>
-          </div>
-        </a>
-      </div>
-    </div>
-    <div class="col-md-2">
-      <div class="thumbnail">
-          <img src="http://sereedmedia.com/srmwp/wp-content/uploads/kitten.jpg" alt="Fjords" style="width:100%">
-          <div class="caption">
-            <p>Eh!</p>
-          </div>
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- My Image Gallery END-->
-
+<!-- #endregion Jssor Slider End -->
+<!-- My products carousel-END -->
 
 <!-- My Footer -->
 <div class="footer">
 	<!--My Google map frame-->
   <div class="location-map">
-      <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d77944.45348093915!2d4.828574537093134!3d52.37469605192781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c63fb5949a7755%3A0x6600fd4cb7c0af8d!2sAmsterdam!5e0!3m2!1sen!2snl!4v1484746761842" width="70%" zoom="200" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2436.3494647812217!2d4.936954215111691!3d52.364083055525725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6096cb988e2e1%3A0xb7f8de1e301ddb0e!2sCoffee+Company!5e0!3m2!1sen!2snl!4v1485698149844" width="90%" height="90%" frameborder="0" style="border:0" allowfullscreen></iframe>
   </div>
     <!--My Google map frame END-->
 
@@ -168,11 +89,11 @@
     <div class="contact-details">
       <div class="phone">
         <i class="fa fa-phone-square" aria-hidden="true"></i>
-        <a href="tel: +31 68 26 91 791">+31 68 26 91 791></a>
+        <a href="tel: +31 68 68 99 999">+31 68 68 99 999></a>
       </div>
       <div class="email">
         <i class="fa fa-envelope" aria-hidden="true"></i>
-        <a href="mailto: kostasnorgias@gmail.com">kostasnorgias@gmail.com> </a>
+        <a href="mailto: coffeebucks@gmail.com">coffeebucks@gmail.com> </a>
       </div>
     </div>
     <!--My Contact Details END-->
@@ -182,7 +103,8 @@
 
 <!-- include jQuery 3.1.1 -->
 <script type="text/javascript" src="js/lib/jquery/jquery.min.js"></script>
-<!-- include custom js script 3.1.1 -->
+<!-- include custom js scripts-->
+<script src="js/lib/jquery/jssor.slider-22.1.8.mini.js" type="text/javascript"></script>
 <script type="text/javascript" src="js/custom.js"></script>
 
 
